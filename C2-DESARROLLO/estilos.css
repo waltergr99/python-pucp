@@ -1,0 +1,136 @@
+.containerPrincipal{
+    min-width : 1000px;
+    min-height : 150px;
+    width: 100%;
+    height: 100%; 
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    align-items: center;
+}
+.containerFondo{
+    width: 100%;
+    min-width : 1000px;
+    z-index: 10;
+}
+.containerCentral{
+    z-index: 20;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    border-radius: 20px;
+}
+
+.containerFoto {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(24, 153, 185);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgUsuario {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+    border-radius: 75px;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.nombreUsuario {
+    margin-top: 5px;
+
+margin-bottom: 0px;
+font-size: 25px;
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.profesionUsuario {
+    margin-top: 5px;
+    font-size: 15px;
+    color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.containerBotones{
+
+display: flex;
+flex-direction: row;
+justify-content:center;
+
+}
+
+.btnInfo {
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#proyectos{
+background-color: #019ba0
+}
+#descargar {
+
+    background-color: dimgray;
+}
+
+.containerInformacion{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: transparent;
+}
+
+.perfilUsuario , .informacionBasica {
+    width:40%;
+    margin: 10px;
+    background-color : transparent;
+}
+.informacionBasica {
+    display: flex;
+    flex-direction: row;
+}
+.etiquetasUsuario {
+
+    background-color: transparent;
+    height: 100%;
+    width: 40%;
+}
+
+.datoUsuario{
+    background-color: transparent;
+    height: 100%;
+    width: 60%;
+}
+.datoUser {
+    color: black;
+    font-weight: lighter;
+    font-family: sans-serif, Helvetica;
+}
+.tagUser {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.datoUser{
+    color : black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
